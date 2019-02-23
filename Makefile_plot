@@ -1,0 +1,15 @@
+all : clean plot run
+
+.Phony: all
+
+clean:
+	rm -f sample_path.pdf
+	
+
+plot:
+	gnuplot plot_sample.gnuplot
+	epstopdf sample_path.eps
+	rm -f sample_path.eps
+
+run:
+	evince sample_path.pdf

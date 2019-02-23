@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/Marsaglia_polar_generator.c
+math.h
+-
+Milstein.h
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/Milstein.h
+
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/Milstein.h
+
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/PRNG_uniform.c
+stdlib.h
+-
+stdio.h
+-
+Milstein.h
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/Milstein.h
+
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/deriv_diffusion_function.c
+Milstein.h
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/Milstein.h
+
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/diffusion_function.c
+Milstein.h
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/Milstein.h
+
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/drift_function.c
+Milstein.h
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/Milstein.h
+
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+Milstein.h
+/home/yrohanizadegan/Desktop/SDE project/Milstein_solver/Milstein.h
+
